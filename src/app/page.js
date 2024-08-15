@@ -2,6 +2,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Carousel from './components/Caraousel'
+import Link from 'next/link';
 
 
 function page() {
@@ -14,7 +15,7 @@ function page() {
     <div>
       <Navbar />
  <Carousel images={images} />
- <div className='mt-[40px] flex gap-10 ml-[40px]'>
+ <div className='mt-[100px] flex gap-10 ml-[40px]'>
  <div className="card bg-base-100 w-96 shadow-xl">
   <figure className="px-10 pt-10">
     <img
@@ -23,10 +24,10 @@ function page() {
       className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Product Prediction</h2>
+    <h2 className="card-title font-semibold">Product Prediction</h2>
     <p></p>
     <div className="card-actions">
-      <button className="btn btn-primary">Get Now</button>
+    <Link href='./ProductPrediction'><button className="bg-blue-100 m-auto p-[6px] rounded-xl mt-6">Get Now</button></Link>
     </div>
   </div>
 </div>
@@ -38,10 +39,10 @@ function page() {
       className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Demand Analysis</h2>
+    <h2 className="card-title mt-6 font-semibold">Demand Analysis</h2>
     <p></p>
     <div className="card-actions">
-      <button className="btn btn-primary">Get Now</button>
+    <Link href='./DemandAnalyasis'><button className="bg-blue-100 m-auto p-[6px] rounded-xl mt-6">Get Now</button></Link>
     </div>
   </div>
 </div>
@@ -50,13 +51,13 @@ function page() {
     <img
       src="https://i.pinimg.com/originals/0d/36/5e/0d365ef226575b1fc775a182ab989a13.gif"
       alt="Shoes"
-      className="rounded-xl w-[220px] ml-[50px]" />
+      className="rounded-xl w-[220px] ml-[20px] " />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Personalised offer</h2>
+    <h2 className="card-title ml-6 mt-4 font-semibold">Personalised offer</h2>
     <p></p>
     <div className="card-actions">
-      <button className="btn btn-primary">Get Now</button>
+    <Link href='./PersonalisedOffer' > <button className="bg-blue-100 m-auto p-[6px] rounded-xl mt-4">Get Now</button></Link>
     </div>
   </div>
 </div>
@@ -65,13 +66,13 @@ function page() {
     <img
       src="https://i.pinimg.com/originals/a9/e6/98/a9e698ffd8e52ce57ee8e9bf42c6dbb4.gif"
       alt="Shoes"
-      className="rounded-xl w-[220px] ml-[50px]" />
+      className="rounded-xl w-[220px] ml-[40px]" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Customer Fragmentation</h2>
+    <h2 className="card-title ml-6 mt-4 font-semibold">Customer Fragmentation</h2>
     <p></p>
     <div className="card-actions">
-      <button className="btn btn-primary">Get Now</button>
+    <Link href='./CustomerFragmentation'> <button className="bg-blue-100 m-auto p-[6px] rounded-xl mt-6 ml-[10px]">Get Now</button></Link>
     </div>
   </div>
 </div>

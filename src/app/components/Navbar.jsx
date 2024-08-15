@@ -9,10 +9,10 @@ function Navbar() {
 
 
 
-    <div className=' flex justify-between gap-[40px] '>
-      <ul className='flex gap-[10px] ml-[620px] mt-[50px]'><Link href="./shop"><li className='font-bold text-lg mb-4 '>Shop</li></Link>
-      <li className='font-bold text-lg '>About</li>
-      <li className='font-bold text-lg '>Contact</li></ul>
+    <div className=' flex justify-between gap-[100px] '>
+      <ul className='flex gap-[40px] ml-[620px] mt-[50px]'><Link href="./shop"><li className='font-bold text-xl mb-4 '>Shop</li></Link>
+      <li className='font-bold text-xl '>About</li>
+      <li className='font-bold text-xl'>Contact</li></ul>
       
         <ul className=' flex gap-[20px] mr-[20px]'>
         <Link href='./cart'><li className='font-bold text-lg '><FaShoppingCart  className='mt-[15px] text-xl'/></li></Link>
