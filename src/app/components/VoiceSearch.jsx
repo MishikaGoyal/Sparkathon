@@ -44,7 +44,7 @@ const VoiceSearch = ({ onLocationDetected }) => {
     <div className="p-4">
       <button
         onClick={handleVoiceInput}
-        className={`px-4 py-2 bg-blue-500 text-white rounded ${isListening ? 'opacity-50 cursor-not-allowed' : ''}`}
+        className={`px-4 py-2 bg-violet-200 text-white rounded-full ${isListening ? 'opacity-50 cursor-not-allowed' : ''}`}
         disabled={isListening}
       >
         {isListening ? 'Listening...' : 'Speak Now'}

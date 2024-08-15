@@ -15,7 +15,7 @@ function page() {
     <div>
       <Navbar />
  <Carousel images={images} />
- <div className='mt-[100px] flex gap-10 ml-[40px]'>
+ <div className='mt-[100px] flex gap-10 ml-[120px]'>
  <div className="card bg-base-100 w-96 shadow-xl">
   <figure className="px-10 pt-10">
     <img
@@ -31,21 +31,7 @@ function page() {
     </div>
   </div>
 </div>
-<div className="card bg-base-100 w-96 shadow-xl">
-  <figure className="px-10 pt-10">
-    <img
-      src="https://i.pinimg.com/originals/66/5c/8c/665c8c15d93ed92c2d362fd5d2b3abfb.gif"
-      alt="Shoes"
-      className="rounded-xl" />
-  </figure>
-  <div className="card-body items-center text-center">
-    <h2 className="card-title mt-6 font-semibold">Demand Analysis</h2>
-    <p></p>
-    <div className="card-actions">
-    <Link href='./DemandAnalyasis'><button className="bg-blue-100 m-auto p-[6px] rounded-xl mt-6">Get Now</button></Link>
-    </div>
-  </div>
-</div>
+
 <div className="card bg-base-100 w-96 shadow-xl">
   <figure className="px-10 pt-10">
     <img
@@ -57,7 +43,7 @@ function page() {
     <h2 className="card-title ml-6 mt-4 font-semibold">Personalised offer</h2>
     <p></p>
     <div className="card-actions">
-    <Link href='./PersonalisedOffer' > <button className="bg-blue-100 m-auto p-[6px] rounded-xl mt-4">Get Now</button></Link>
+    <Link href='./PersonalisedOffer' > <button className="bg-blue-100 m-auto p-[6px] rounded-xl mt-2">Get Now</button></Link>
     </div>
   </div>
 </div>
@@ -69,13 +55,19 @@ function page() {
       className="rounded-xl w-[220px] ml-[40px]" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title ml-6 mt-4 font-semibold">Customer Fragmentation</h2>
+    <h2 className="card-title ml-6 mt-4 font-semibold">Map Navigation</h2>
     <p></p>
     <div className="card-actions">
-    <Link href='./CustomerFragmentation'> <button className="bg-blue-100 m-auto p-[6px] rounded-xl mt-6 ml-[10px]">Get Now</button></Link>
+    <Link href='./Storemap' > <button className="bg-blue-100 m-auto p-[6px] rounded-xl mt-4">Explore</button></Link>
     </div>
   </div>
+ 
 </div>
+ </div>
+ <div className='mt-[80px]'>
+  <h1 className='text-center text-2xl font-semibold ml-[50px]'>Your Feedback Matters</h1>
+  <Link href='./Profile' ><img  className=' ml-[500px] w-[500px] mt-[10px]' src="https://i.pinimg.com/originals/d7/d4/83/d7d4832c9f2fcad05fb2ce285bb57cce.gif" alt="" srcset="" /></Link>
+
  </div>
     </div>
   )
