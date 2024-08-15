@@ -10,7 +10,7 @@ const FeedbackForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch('/api/sendFeedback', {
+    const res = await fetch('/api/sendfeedback', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

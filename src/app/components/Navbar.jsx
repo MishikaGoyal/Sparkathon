@@ -10,7 +10,7 @@ function Navbar() {
 
 
     <div className=' flex justify-between gap-[100px] '>
-      <ul className='flex gap-[40px] ml-[620px] mt-[50px]'><Link href="./shop"><li className='font-bold text-xl mb-4 rounded-full bg-gray-100 px-4  hover:bg-blue-400'>Shop</li></Link>
+      <ul className='flex gap-[40px] ml-[600px] mt-[50px]'><Link href="./shop"><li className='font-bold text-xl mb-4 rounded-full bg-gray-100 px-4  hover:bg-blue-400'>Shop</li></Link>
       <li className='font-bold text-xl  mb-4 rounded-full bg-gray-100 px-4  hover:bg-blue-400'>About</li>
       <li className='font-bold text-xl  mb-4 rounded-full bg-gray-100 px-4  hover:bg-blue-400'>Contact</li></ul>
       

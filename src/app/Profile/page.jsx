@@ -1,7 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-
+import { FaHome } from "react-icons/fa";
 export default function Profile() {
   const [user, setUser] = useState(null);
 
@@ -25,6 +25,8 @@ export default function Profile() {
   }
 
   return (
+    <>
+     <Link href='/'><FaHome className='text-2xl ml-[5px]' /></Link>
     <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-100">
       <div className="bg-white p-6 rounded-xl shadow-lg">
         <img
@@ -39,5 +41,6 @@ export default function Profile() {
        <Link href='./Feedback'> <button className='text-center mb-4 rounded-full px-10 py-2 bg-violet-200 ml-[70px]'>Feedback Form</button></Link>
       </div>
     </div>
+    </>
   );
 }
